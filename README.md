@@ -70,7 +70,7 @@ here in this files , I played with YOLOv8 to detect players and ball 🤸‍♀�
 
 
 ## 4️⃣ Tracking objects 🔎
-- Using ultrlytics , I will track player through video , and since we have only one ball , so we don`t have to track it.
+- Using ultrlytics , I will track players through video , and since we have only one ball , so we don`t have to track it.
 
 To track persons through frames using the YOLOv8 model, use the following code:  
 
