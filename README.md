@@ -49,6 +49,6 @@ here in this files :
 I played with YOLOv8 to detect players and ball , but unfortunately
 
 
-| Video                                   |  
+| Video                                   |   
 |-----------------------------------------|  
-| <video width="320" height="240" controls> <source src="https://github.com/user-attachments/assets/78fe1c22-1709-4505-b236-90081f7e7046" type="video/mp4"> Your browser does not support the video tag. </video> |
+| <video width="385" height="250" controls> <source src="https://github.com/user-attachments/assets/78fe1c22-1709-4505-b236-90081f7e7046" type="video/mp4"> Your browser does not support the video tag. </video> |
