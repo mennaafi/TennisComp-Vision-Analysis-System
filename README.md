@@ -57,6 +57,16 @@ here in this files , I played with YOLOv8 to detect players and ball 🤸‍♀�
  > - ### After reviewing the results, I noticed that while the model detects players very well, the detection of the ball is significantly lower across the frames. Therefore, I will use another method to address this issue.
 
 
+
+
 ## 3️⃣ Ball Detction 🏀
+- I will fine tune a detector model to detect ball better to utilize its output a little bit better.
+- Using dataset from Robowflow : https://universe.roboflow.com/viren-dhanwani/tennis-ball-detection
+- Fine tuning YOLOv5 from ultralytics , YOLOv5 it gives me best output.
+
+### here is my output :)
+
+| ![output](https://github.com/user-attachments/assets/760b034c-05b2-4a7a-91ec-101fcc786c64) | [Watch Video](https://github.com/mennaafi/TennisComp-Vision-Analysis-System/blob/main/inputs/input_video.mp4) |
+
 
 
