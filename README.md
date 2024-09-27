@@ -103,3 +103,9 @@ model = models.resnet50(pretrained=True)
 model.fc = torch.nn.Linear(model.fc.in_features, 14 * 2)
 ```
 
+
+
+
+
+
+#  🏀 Stage ||
