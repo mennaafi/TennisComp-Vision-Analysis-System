@@ -11,10 +11,11 @@
 
 
 #  🏀 Stage |  
-## 🎯 Objectives  :
-     - Player Detection 
-     - Ball detection 
-     - Tracking 
-     - Court Key points Detection 
+## 🎯 Objectives:  
+
+- Player Detection  
+- Ball Detection  
+- Tracking  
+- Court Key Points Detection 
      
 
