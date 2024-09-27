@@ -11,11 +11,11 @@
 
 
 #  🏀 Stage |  
-## 🎯 Objectives:  
 
-- Player Detection  
-- Ball Detection  
+ 
+- Player Detection using ulralytics and YOLOv8.
+- Ball Detection , i will Fine tune and train my own YOLO on my own custom dataset.
 - Tracking  
-- Court Key Points Detection 
+- Court Key Points Detection , i will train a CNN with pytorch to extract keypoints
      
 
