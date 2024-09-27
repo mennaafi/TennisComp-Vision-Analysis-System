@@ -15,7 +15,7 @@
  
 - Player Detection using ulralytics and YOLOv8.
 - Ball Detection , i will Fine tune and train my own YOLO on my own custom dataset.
-- Tracking  
+- Tracking Objects.
 - Court Key Points Detection , i will train a CNN with pytorch to extract keypoints
 
 
