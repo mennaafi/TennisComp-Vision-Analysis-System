@@ -66,7 +66,6 @@ here in this files , I played with YOLOv8 to detect players and ball 🤸‍♀�
 
 ### here is my output :)
 
-| ![output](https://github.com/user-attachments/assets/760b034c-05b2-4a7a-91ec-101fcc786c64) | [Watch Video](https://github.com/mennaafi/TennisComp-Vision-Analysis-System/blob/main/inputs/input_video.mp4) |
-
+[![Watch the image](https://github.com/user-attachments/assets/760b034c-05b2-4a7a-91ec-101fcc786c64)](https://github.com/user-attachments/assets/760b034c-05b2-4a7a-91ec-101fcc786c64)
 
 
