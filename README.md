@@ -42,15 +42,13 @@ model = YOLO("yolov8x")
 # Predict on a video  
 results = model.predict("inputs/input_video.mp4", save=True
 
-
+```
 here in this files :
 - inferance_YOLO.py
 - inferance_YOLO_ ball.py
 I played with YOLOv8 to detect players and ball , but unfortunately
 
-# Video Presentation  
-
-| Title          | Description               | Duration | Link                      |  
-|----------------|---------------------------|----------|---------------------------|  
-| Your Video Title | A brief description of the video. | Duration Here  | [Watch the video](https://github.com/user-attachments/assets/78fe1c22-1709-4505-b236-90081f7e7046) |
+| Thumbnail                          | Video Link                                                                                       |  
+|------------------------------------|-------------------------------------------------------------------------------------------------|  
+| [![Watch the video](https://github.com/user-attachments/assets/25cfceab-2b42-46b4-b533-3f6c3baf505e)](https://github.com/user-attachments/assets/78fe1c22-1709-4505-b236-90081f7e7046) | [Watch the video](https://github.com/user-attachments/assets/78fe1c22-1709-4505-b236-90081f7e7046) |
 
