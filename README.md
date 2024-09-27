@@ -47,10 +47,12 @@ here in this files , I played with YOLOv8 to detect players and ball 🤸‍♀�
 - inferance_YOLO.py
 - inferance_YOLO_ ball.py
 
-this is my output video : 
+### this is my output video : 
 
 [![Watch the video](https://github.com/user-attachments/assets/25cfceab-2b42-46b4-b533-3f6c3baf505e)](https://github.com/user-attachments/assets/78fe1c22-1709-4505-b236-90081f7e7046)
 
 
-📌 Note  : after i saw result i notice that model could detect players very well but unfortunately  ball been detected very low through frames , so I will use  method to overcome this.
+## 📌 Note  
+
+## After I saw the result, I noticed that the model could detect players very well, but unfortunately, the ball has been detected very low through frames. So I will use a method to overcome this.
 
