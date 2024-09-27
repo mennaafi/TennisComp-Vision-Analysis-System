@@ -43,10 +43,14 @@ model = YOLO("yolov8x")
 results = model.predict("inputs/input_video.mp4", save=True
 
 ```
-here in this files :
+here in this files , I played with YOLOv8 to detect players and ball 🤸‍♀️
 - inferance_YOLO.py
 - inferance_YOLO_ ball.py
-I played with YOLOv8 to detect players and ball , but unfortunately
 
+this is my output video : 
 
 [![Watch the video](https://github.com/user-attachments/assets/25cfceab-2b42-46b4-b533-3f6c3baf505e)](https://github.com/user-attachments/assets/78fe1c22-1709-4505-b236-90081f7e7046)
+
+
+📌 Note  : after i saw result i notice that model could detect players very well but unfortunately  ball been detected very low through frames , so I will use  method to overcome this.
+
