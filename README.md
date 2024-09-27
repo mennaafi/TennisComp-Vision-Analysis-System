@@ -84,7 +84,7 @@ results = model.track('inputs/input_video.mp4', conf=0.2, save=True)
 ```
 ### here is my output :)
 
-[![Watch the video](https://github.com/user-attachments/assets/8d9c8506-fda6-48ac-8987-229d913baa3d)](https://github.com/user-attachments/assets/78fe1c22-1709-4505-b236-90081f7e7046)  
+[![Watch the video](https://github.com/user-attachments/assets/c613ef69-d955-439a-b485-4fdddd778e53)](https://github.com/user-attachments/assets/78fe1c22-1709-4505-b236-90081f7e7046)  
 
 
 
