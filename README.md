@@ -86,4 +86,20 @@ results = model.track('inputs/input_video.mp4', conf=0.2, save=True)
 
 [Watch the video](https://github.com/user-attachments/assets/c613ef69-d955-439a-b485-4fdddd778e53)
 
+## 5️⃣ Court KeyPoints Detection 🏟️
+- Using  this dataset : https://drive.google.com/file/d/1QrTOF1ToQ4plsSZbkBs3zOLkVt3MBlta/view?usp=sharing
+- I used feature extraction technique, model modification, and training process for keypoint extraction using a CNN in PyTorch
+
+To adapt the ResNet-50 model for keypoint detection, we modify the final fully connected layer as follows:
+
+```python
+import torch
+from torchvision import models
+
+# Load the pre-trained ResNet-50 model
+model = models.resnet50(pretrained=True)
+
+# Modify the final layer to output keypoints (14 keypoints, 2 coordinates each)
+model.fc = torch.nn.Linear(model.fc.in_features, 14 * 2)
+```
 
