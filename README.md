@@ -54,5 +54,5 @@ here in this files , I played with YOLOv8 to detect players and ball 🤸‍♀�
 
 ## 📌 Note :
 
-### > - After I saw the result , I noticed that the model could detect players very well , but unfortunately, the ball has been detected very low through frames. So I will use a method to overcome this.
+> - After reviewing the results, I noticed that while the model detects players very well, the detection of the ball is significantly lower across the frames. Therefore, I will implement a method to address this issue.  
 
