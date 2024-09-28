@@ -169,6 +169,21 @@ In mini_court.py file : The MiniCourt class is designed for visual analysis and 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ###  ✅ Detect Ball Shots 
 
 - I noticed that ball detections in some frames are missing , so we should address this problem.
@@ -182,6 +197,22 @@ In mini_court.py file : The MiniCourt class is designed for visual analysis and 
    > - Initializes a ball_hit column to track detected hits.
    > - Looks for significant changes in the position (delta_y) to identify ball hits, requiring a minimum frame change to confirm a hit.
    > - Collects the frame numbers where ball hits are detected into a list (frame_nums_with_ball_hits).
+
+
+
+
+
+
+
+
+
+
+
+
+
+###  ✅ Convert Bounding boxes to mini court coodinates.
+
+###  ✅ Convert Objects positions to mini court positions 
 
 
 
