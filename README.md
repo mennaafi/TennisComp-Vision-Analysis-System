@@ -119,7 +119,7 @@ model.fc = torch.nn.Linear(model.fc.in_features, 14 * 2)
 
 - PlayerTracker Class  is designed to facilitate the detection and tracking of players in video frames. It utilizes a YOLOv8  model for object detection, filtering out thw closest two detected players based on their proximity to specified court keypoints.
   
- ### Functions Summary
+ ### Functions Summary ☑️ :
 
 ##### `__init__(self, model_path)`
 Initializes the PlayerTracker by loading the YOLO model from the specified path.
