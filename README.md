@@ -221,3 +221,18 @@ In mini_court.py file : The MiniCourt class is designed for visual analysis and 
   
 
 
+
+
+#  🏀 Stage ||| 
+
+## Finally , we want to display a  statistical DataFrame for match analysis.
+
+| Description | Screenshot |  
+|-------------|------------|  
+| Match Analysis Statistical DataFrame | ![Screenshot (89)](https://github.com/user-attachments/assets/05ce675d-3a98-480e-8327-8a55b55f05fb) |
+
+
+
+
+
+
