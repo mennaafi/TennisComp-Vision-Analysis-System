@@ -111,10 +111,10 @@ model.fc = torch.nn.Linear(model.fc.in_features, 14 * 2)
 #  🏀 Stage ||
 
 
-✅ In video_utils.py file : we start to read video frames and save them .
+###  ✅ In video_utils.py file : we start to read video frames and save them .
 
 
-✅ In player_tracker.py file : 
+###  ✅ In player_tracker.py file : 
 
 
 - PlayerTracker Class  is designed to facilitate the detection and tracking of players in video frames. It utilizes a YOLOv8  model for object detection, filtering out thw closest two detected players based on their proximity to specified court keypoints.
@@ -141,7 +141,7 @@ Annotates video frames by drawing bounding boxes and player IDs based on detecte
 
 
 
-✅ In ball_tracker.py  , court_line_detector.py files :  I used same functions for ball tracker but my model was YOLOv5 , and for court keypoints i used model keypoints_model.pth
+### ✅ In ball_tracker.py  , court_line_detector.py files :  I used same functions for ball tracker but my model was YOLOv5 , and for court keypoints i used model keypoints_model.pth
  > - ### You can find my models in models file , there is a link for my Google drive.
 
 
