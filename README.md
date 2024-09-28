@@ -119,35 +119,22 @@ model.fc = torch.nn.Linear(model.fc.in_features, 14 * 2)
 
 - PlayerTracker Class  is designed to facilitate the detection and tracking of players in video frames. It utilizes a YOLOv8  model for object detection, filtering out thw closest two detected players based on their proximity to specified court keypoints.
   
-  ```python
-  Function Summaries
+ ## Function Summaries
 
-__init__(self, model_path)
+### `__init__(self, model_path)`
+Initializes the PlayerTracker by loading the YOLO model from the specified path.
 
-# Initializes the PlayerTracker by loading the YOLO model from the specified path.
+### `choose_and_filter_players(self, court_keypoints, player_detections)`
+Selects and filters player detections based on their proximity to key court positions, returning only the closest players.
 
+### `choose_players(self, court_keypoints, player_dict)`
+Identifies the two closest players to the specified court keypoints based on the distance from their bounding box centers.
 
-choose_and_filter_players(self, court_keypoints, player_detections)
+### `detect_frames(self, frames, read_from_stub=False, stub_path=None)`
+Processes a list of video frames to detect players, with an option to read detections from a stub file for efficiency.
 
-# Selects and filters player detections based on their proximity to key court positions, returning only the closest players.
+### `detect_frame(self, frame)`
+Detects players in a single video frame and returns a mapping of track IDs to their bounding box coordinates.
 
-
-choose_players(self, court_keypoints, player_dict)
-
-# Identifies the two closest players to the specified court keypoints based on the distance from their bounding box centers.
-
-
-detect_frames(self, frames, read_from_stub=False, stub_path=None)
-
-# Processes a list of video frames to detect players, with an option to read detections from a stub file for efficiency.
-
-
-detect_frame(self, frame)
-
-# Detects players in a single video frame and returns a mapping of track IDs to their bounding box coordinates.
-
-
-draw_bboxes(self, video_frames, player_detections)
-
-# Annotates video frames by drawing bounding boxes and player IDs based on detected players.
-``` 
+### `draw_bboxes(self, video_frames, player_detections)`
+Annotates video frames by drawing bounding boxes and player IDs based on detected players.
