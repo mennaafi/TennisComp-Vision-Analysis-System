@@ -136,7 +136,7 @@ model.fc = torch.nn.Linear(model.fc.in_features, 14 * 2)
 
 
 
-###  ✅ Now let`s draw mini court it`s vey good in visualization but also will help us when we want to determine the distance between ny two things.
+###  ✅ Now let`s draw mini court it`s vey good in visualization but also will help us when we want to determine the distance between any two things.
 
 
 | Tennis Court Dimensions | output |  
