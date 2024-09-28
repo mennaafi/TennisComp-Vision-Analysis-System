@@ -116,32 +116,17 @@ model.fc = torch.nn.Linear(model.fc.in_features, 14 * 2)
 
 ###  ✅ In player_tracker.py file : 
 
-
-- PlayerTracker Class  is designed to facilitate the detection and tracking of players in video frames. It utilizes a YOLOv8  model for object detection, filtering out thw closest two detected players based on their proximity to specified court keypoints.
-  
- ### Functions Summary ☑️ :
-
-##### `__init__(self, model_path)`
-Initializes the PlayerTracker by loading the YOLO model from the specified path.
-
-##### `choose_and_filter_players(self, court_keypoints, player_detections)`
-Selects and filters player detections based on their proximity to key court positions, returning only the closest players.
-
-##### `choose_players(self, court_keypoints, player_dict)`
-Identifies the two closest players to the specified court keypoints based on the distance from their bounding box centers.
-
-##### `detect_frames(self, frames, read_from_stub=False, stub_path=None)`
-Processes a list of video frames to detect players, with an option to read detections from a stub file for efficiency.
-
-##### `detect_frame(self, frame)`
-Detects players in a single video frame and returns a mapping of track IDs to their bounding box coordinates.
-
-##### `draw_bboxes(self, video_frames, player_detections)`
-Annotates video frames by drawing bounding boxes and player IDs based on detected players.
+- The PlayerTracker class helps track players in video frames using a YOLO model.
+- It starts by loading the YOLOv8 model to quickly detect players.
+- The class picks and filters player detections based on how close they are to important court positions.
+- It finds the two players closest to specific court keypoints by looking at the centers of their bounding boxes.
+- The system efficiently processes multiple video frames and can read existing detections from a saved file.
+- For each individual frame, it accurately identifies players and connects their track IDs to their bounding box positions.
+- Finally, the system adds labels and draws boxes around players in the video frames, making it easy to see their locations.
 
 
 
-### ✅ In ball_tracker.py  , court_line_detector.py files :  I used same functions for ball tracker but my model was YOLOv5 , and for court keypoints i used model keypoints_model.pth
+### ✅ In ball_tracker.py  , court_line_detector.py files :  I used same steps for ball tracker but my model was YOLOv5 , and for court keypoints i used model keypoints_model.pth
  > - ### You can find my models in models file , there is a link for my Google drive.
 
 
