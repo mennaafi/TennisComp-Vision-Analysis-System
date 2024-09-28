@@ -166,3 +166,27 @@ In mini_court.py file : The MiniCourt class is designed for visual analysis and 
 - Visual Highlights: Marks player positions and movements through graphical annotations, making it easier to analyze gameplay.
 
 
+
+
+
+###  ✅ Detect Ball Shots 
+
+- I noticed that ball detections in some frames are missing , so we should address this problem.
+- im my ball_analysis_ipynb file :
+   > - Loads ball position data from a pickle file (ball_detections.pkl).
+   > - Extracts ball positions corresponding to a specific key (1 in this case) and converts the list into a pandas DataFrame with columns ['x1', 'y1', 'x2', 'y2'].
+   > - Interpolates missing values in the DataFrame using linear interpolation , Fills any remaining missing values with the next valid observation (backward fill).
+   > - Computes the midpoint of the ball's y-coordinates (mid_y) by averaging y1 and y2.
+   > - Calculates a rolling mean of the midpoint over a window of 5 frames to smooth out the variations.
+   > - Computes the difference in consecutive rolling means to detect changes in the ball's position (delta_y).
+   > - Initializes a ball_hit column to track detected hits.
+   > - Looks for significant changes in the position (delta_y) to identify ball hits, requiring a minimum frame change to confirm a hit.
+   > - Collects the frame numbers where ball hits are detected into a list (frame_nums_with_ball_hits).
+
+
+
+
+
+  
+
+
