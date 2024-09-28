@@ -130,12 +130,31 @@ model.fc = torch.nn.Linear(model.fc.in_features, 14 * 2)
  > - ### You can find my models in models file , there is a link for my Google drive.
 
 
+
+
+
+
 ###  ✅ Now let`s draw mini court it`s vey good in visualization but also will help us when we want to determine the distance between ny two things.
 
 
 | Tennis Court Dimensions | output |  
 |------------------------|------------|  
 | ![doubles-tennis-court-dimensions-598x381](https://github.com/user-attachments/assets/c1f391d9-f1d9-471a-ae94-c54e237e3c4a) | ![Screenshot (87)](https://github.com/user-attachments/assets/e330f186-147b-4937-956f-90778f1c1794) |
+
+with some research :
+Here are the dimensions relevant to the tennis court and players:  
+
+```python  
+SINGLE_LINE_WIDTH = 8.23  
+DOUBLE_LINE_WIDTH = 10.97  
+HALF_COURT_LINE_HEIGHT = 11.88  
+SERVICE_LINE_WIDTH = 6.4  
+DOUBLE_ALLY_DIFFERENCE = 1.37  
+NO_MANS_LAND_HEIGHT = 5.48  
+
+PLAYER_1_HEIGHT_METERS = 1.88  
+PLAYER_2_HEIGHT_METERS = 1.91  
+```
 
 
 
