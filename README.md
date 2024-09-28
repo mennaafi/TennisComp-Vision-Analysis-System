@@ -225,7 +225,7 @@ In mini_court.py file : The MiniCourt class is designed for visual analysis and 
 
 #  🏀 Stage ||| 
 
-## Finally , we want to display a  statistical DataFrame for match analysis.
+### Finally , we want to display a  statistical DataFrame for match analysis.
 
 | Description | Screenshot |  
 |-------------|------------|  
