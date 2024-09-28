@@ -4,7 +4,7 @@
 
 # 👁️Tennis Analysis System👁️   
 
-Welcome to My Tennis Analysis System project! In this repository, I will leverage computer vision, and deep learning techniques to create a robust tennis analysis system. This project employs YOLO, a state-of-the-art object detector, to accurately identify players and tennis balls within video frames. Additionally, we implement advanced tracking methods to follow these objects seamlessly across frames. A custom Convolutional Neural Network (CNN) is developed to detect key points on the tennis court, enhancing the depth of analysis.
+Welcome to My Tennis Analysis System project! In this repository, I will leverage computer vision, and deep learning techniques to create a robust tennis analysis system. This project employs YOLO, a state-of-the-art object detector, to accurately identify players and tennis balls within video frames. Additionally, I implement advanced tracking methods to follow these objects seamlessly across frames. A custom Convolutional Neural Network (CNN) is developed to detect key points on the tennis court, enhancing the depth of analysis.
 
 [![Watch the video](https://github.com/user-attachments/assets/25cfceab-2b42-46b4-b533-3f6c3baf505e)](https://github.com/user-attachments/assets/25cfceab-2b42-46b4-b533-3f6c3baf505e)  
   
