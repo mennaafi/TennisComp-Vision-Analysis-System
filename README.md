@@ -141,7 +141,7 @@ model.fc = torch.nn.Linear(model.fc.in_features, 14 * 2)
 |------------------------|------------|  
 | ![doubles-tennis-court-dimensions-598x381](https://github.com/user-attachments/assets/c1f391d9-f1d9-471a-ae94-c54e237e3c4a) | ![Screenshot (87)](https://github.com/user-attachments/assets/e330f186-147b-4937-956f-90778f1c1794) |
 
-with some research :
+with some research ,
 Here are the dimensions relevant to the tennis court and players:  
 
 ```python  
@@ -156,6 +156,13 @@ PLAYER_1_HEIGHT_METERS = 1.88
 PLAYER_2_HEIGHT_METERS = 1.91  
 ```
 
+In mini_court.py file : The MiniCourt class is designed for visual analysis and representation of a tennis court within video frames. It provides functionalities to:
 
+- Initialize a Mini Court: Sets up the dimensions and key positions for drawing the mini court.
+- Coordinate Conversion: Converts real-world measurements (in meters) to pixel values, enabling accurate placement on the mini court.
+- Drawing Capabilities: Draws various elements, including court lines, a net, and player positions using OpenCV, enhancing visual clarity.
+- Player Position Tracking: Computes player coordinates relative to key points on the court and updates their positions based on changes in video frames.
+- Frame Processing: Processes multiple frames to track player and ball movements, ensuring dynamic visualization.
+- Visual Highlights: Marks player positions and movements through graphical annotations, making it easier to analyze gameplay.
 
 
