@@ -237,9 +237,6 @@ In main.py file :
 
 By analyzing and tracking player statistics during a match by focusing on ball shot events. It initializes a data structure to hold statistics for two players, iterating through the frames where the ball is shot to calculate the duration between shots, as well as the distance and speed of the ball. By determining which player is closest to the ball at the time of the shot, the code records that player's performance, including the total number of shots taken and their average shot speed. Additionally, it measures the opponent's speed during each shooting event. into a DataFrame, This comprehensive analysis provides valuable insights into player performance, enhancing the understanding of their contributions throughout the match.
 
-## THE END ..
-### Thank you for keep  reading :) 🌷
-
 
 
 
