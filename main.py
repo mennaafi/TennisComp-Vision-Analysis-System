@@ -47,9 +47,7 @@ def main():
 
     # MiniCourt
     mini_court = MiniCourt(video_frames[0])
-    court_keypoints = court_line_detector.predict(video_frames[0])
-
-
+    
     # Detect ball shots
     ball_shot_frames = ball_tracker.get_ball_shot_frames(ball_detections)
 
